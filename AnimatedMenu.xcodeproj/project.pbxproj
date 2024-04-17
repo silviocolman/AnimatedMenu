@@ -11,6 +11,7 @@
 		D5E7ADF92BCDAB36005FD204 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E7ADF82BCDAB36005FD204 /* ContentView.swift */; };
 		D5E7ADFB2BCDAB39005FD204 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5E7ADFA2BCDAB39005FD204 /* Assets.xcassets */; };
 		D5E7ADFE2BCDAB39005FD204 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5E7ADFD2BCDAB39005FD204 /* Preview Assets.xcassets */; };
+		D5E7AE062BCDABE4005FD204 /* AnimatedSideBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E7AE052BCDABE4005FD204 /* AnimatedSideBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		D5E7ADF82BCDAB36005FD204 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D5E7ADFA2BCDAB39005FD204 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D5E7ADFD2BCDAB39005FD204 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D5E7AE052BCDABE4005FD204 /* AnimatedSideBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedSideBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 		D5E7ADF52BCDAB36005FD204 /* AnimatedMenu */ = {
 			isa = PBXGroup;
 			children = (
+				D5E7AE042BCDAB6C005FD204 /* Helpers */,
 				D5E7ADF62BCDAB36005FD204 /* AnimatedMenuApp.swift */,
 				D5E7ADF82BCDAB36005FD204 /* ContentView.swift */,
 				D5E7ADFA2BCDAB39005FD204 /* Assets.xcassets */,
@@ -65,6 +68,14 @@
 				D5E7ADFD2BCDAB39005FD204 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D5E7AE042BCDAB6C005FD204 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				D5E7AE052BCDABE4005FD204 /* AnimatedSideBar.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +149,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D5E7ADF92BCDAB36005FD204 /* ContentView.swift in Sources */,
+				D5E7AE062BCDABE4005FD204 /* AnimatedSideBar.swift in Sources */,
 				D5E7ADF72BCDAB36005FD204 /* AnimatedMenuApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
