@@ -92,7 +92,7 @@ struct ContentView: View {
         case bookmark = "book.fill"
         case favourites = "heart.fill"
         case profile = "person.crop.circle"
-        case logout = "rectangle.portrait.and.forward.fill"
+        case logout = "rectangle.portrait.and.arrow.forward.fill"
         
         var title: String {
             switch self {
