@@ -1,4 +1,4 @@
-## Page Curl Swipe Animation
+## Page Curl Swipe Animation - iOS 17
 El proyecto utiliza SwiftUI para crear una aplicación con una interfaz de usuario dinámica que incluye un menú lateral animado y un contenido principal centrado en una lista de navegación.
 El menú lateral ofrece acceso rápido a diferentes secciones de la aplicación, como la página de inicio y opciones de perfil. Está diseñado con un aspecto elegante y funcionalidad intuitiva, permitiendo al usuario navegar fácilmente entre las diferentes áreas de la aplicación.
 
@@ -9,6 +9,7 @@ El menú lateral ofrece acceso rápido a diferentes secciones de la aplicación,
 - Swift
 - SwiftUI 
 - Xcode 15
+- iOS 17
 
 ### Capturas de pantalla:
 
